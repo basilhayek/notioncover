@@ -1,0 +1,746 @@
+2021-02-07 02:26:12,131 - <module> - INFO - notioncover starting...
+2021-02-07 02:26:12,139 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-07 02:26:26,917 - gradient - INFO - Handling request for gradient white -> blue
+2021-02-07 02:26:26,919 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:26:26] "[37mGET /gradient/white/blue HTTP/1.1[0m" 200 -
+2021-02-07 02:26:37,457 - gradient - INFO - Handling request for gradient ff00ff -> 00ff00
+2021-02-07 02:26:37,457 - gradient - INFO - Creating cover for gradient #ff00ff -> #00ff00
+2021-02-07 02:26:37,783 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:26:37] "[37mGET /gradient/ff00ff/00ff00 HTTP/1.1[0m" 200 -
+2021-02-07 02:27:11,468 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:27:11] "[33mGET / HTTP/1.1[0m" 404 -
+2021-02-07 02:27:22,143 - gradient - INFO - Handling request for gradient ffff00 -> 0000ff
+2021-02-07 02:27:22,143 - gradient - INFO - Creating cover for gradient #ffff00 -> #0000ff
+2021-02-07 02:27:22,495 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:27:22] "[37mGET /gradient/ffff00/0000ff HTTP/1.1[0m" 200 -
+2021-02-07 02:27:41,193 - gradient - INFO - Handling request for gradient 00ffff -> ff0000
+2021-02-07 02:27:41,193 - gradient - INFO - Creating cover for gradient #00ffff -> #ff0000
+2021-02-07 02:27:41,426 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:27:41] "[37mGET /gradient/00ffff/ff0000 HTTP/1.1[0m" 200 -
+2021-02-07 02:29:29,079 - <module> - INFO - notioncover starting...
+2021-02-07 02:29:29,088 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-07 02:29:42,930 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:29:42] "[37mGET /gradient/00ffff/ff0000 HTTP/1.1[0m" 200 -
+2021-02-07 02:30:08,697 - gradient - INFO - Creating cover for gradient cyan -> red
+2021-02-07 02:30:08,948 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:30:08] "[37mGET /gradient/cyan/red HTTP/1.1[0m" 200 -
+2021-02-07 02:30:19,098 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:30:19] "[33mGET / HTTP/1.1[0m" 404 -
+2021-02-07 02:30:50,943 - check_color - INFO - Color reddd not found, returning white
+2021-02-07 02:30:50,943 - gradient - INFO - Creating cover for gradient cyan -> white
+2021-02-07 02:30:51,180 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 02:30:51] "[37mGET /gradient/cyan/reddd HTTP/1.1[0m" 200 -
+2021-02-07 07:59:55,041 - <module> - INFO - notioncover starting...
+2021-02-07 07:59:55,053 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-07 14:28:11,678 - check_color - INFO - Color reddd not found, returning white
+2021-02-07 14:28:11,680 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 14:28:11] "[37mGET /gradient/cyan/reddd HTTP/1.1[0m" 200 -
+2021-02-07 14:29:11,069 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 14:29:11] "[37mGET /gradient/ff00ff/00ff00 HTTP/1.1[0m" 200 -
+2021-02-07 14:30:11,011 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 14:30:11] "[37mGET /gradient/white/blue HTTP/1.1[0m" 200 -
+2021-02-07 19:26:36,989 - gradient - INFO - Creating cover for gradient cyan -> green
+2021-02-07 19:26:37,289 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:26:37] "[37mGET /gradient/cyan/green HTTP/1.1[0m" 200 -
+2021-02-07 19:26:55,255 - gradient - INFO - Creating cover for gradient cyan -> blue
+2021-02-07 19:26:55,432 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:26:55] "[37mGET /gradient/cyan/blue HTTP/1.1[0m" 200 -
+2021-02-07 19:27:14,127 - gradient - INFO - Creating cover for gradient #ffff00 -> #ff0000
+2021-02-07 19:27:14,326 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:27:14] "[37mGET /gradient/ffff00/ff0000 HTTP/1.1[0m" 200 -
+2021-02-07 19:27:23,149 - gradient - INFO - Creating cover for gradient #ffff00 -> #00ff00
+2021-02-07 19:27:23,406 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:27:23] "[37mGET /gradient/ffff00/00ff00 HTTP/1.1[0m" 200 -
+2021-02-07 19:27:36,936 - gradient - INFO - Creating cover for gradient purple -> red
+2021-02-07 19:27:37,263 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:27:37] "[37mGET /gradient/purple/red HTTP/1.1[0m" 200 -
+2021-02-07 19:27:42,344 - gradient - INFO - Creating cover for gradient purple -> blue
+2021-02-07 19:27:42,605 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:27:42] "[37mGET /gradient/purple/blue HTTP/1.1[0m" 200 -
+2021-02-07 19:27:55,630 - gradient - INFO - Creating cover for gradient yellow -> green
+2021-02-07 19:27:55,838 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:27:55] "[37mGET /gradient/yellow/green HTTP/1.1[0m" 200 -
+2021-02-07 19:28:04,046 - gradient - INFO - Creating cover for gradient yellow -> red
+2021-02-07 19:28:04,348 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:28:04] "[37mGET /gradient/yellow/red HTTP/1.1[0m" 200 -
+2021-02-07 19:30:45,401 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:30:45] "[33mGET / HTTP/1.1[0m" 404 -
+2021-02-07 19:56:58,611 - _log - INFO - 172.18.0.1 - - [07/Feb/2021 19:56:58] "[33mGET / HTTP/1.1[0m" 404 -
+2021-02-12 18:39:48,114 - <module> - INFO - notioncover starting...
+2021-02-12 18:39:48,125 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-12 19:10:31,164 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 19:10:31] "[33mGET / HTTP/1.1[0m" 404 -
+2021-02-12 19:16:50,544 - <module> - INFO - notioncover starting...
+2021-02-12 19:16:50,552 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-12 19:17:39,380 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 19:17:39] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 19:20:11,598 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 19:20:11] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:35:36,135 - <module> - INFO - notioncover starting...
+2021-02-12 20:35:36,161 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-12 20:35:36,191 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:35:36] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:35:36,401 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:35:36] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:35:57,796 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:35:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:36:10,159 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:36:10] "[33mGET /ping HTTP/1.1[0m" 404 -
+2021-02-12 20:36:13,539 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:36:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:36:15,154 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:36:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-12 20:36:18,129 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:36:18] "[33mGET /solid/ HTTP/1.1[0m" 404 -
+2021-02-12 20:36:24,333 - solid_color - INFO - Creating cover for solid #dddddd
+2021-02-12 20:36:24,378 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:36:24] "[37mGET /solid/dddddd HTTP/1.1[0m" 200 -
+2021-02-12 20:37:09,282 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:37:09] "[37mGET /solid/red HTTP/1.1[0m" 200 -
+2021-02-12 20:37:52,982 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:37:52] "[37mGET /gradient/cyan/white HTTP/1.1[0m" 200 -
+2021-02-12 20:37:52,984 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:37:52] "[37mGET /gradient/yellow/red HTTP/1.1[0m" 200 -
+2021-02-12 20:38:14,014 - solid_color - INFO - Creating cover for solid #e55812
+2021-02-12 20:38:14,037 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:38:14] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:42:47,716 - check_color - INFO - Color {color} not found, returning gray
+2021-02-12 20:42:47,717 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:42:47] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-12 20:42:50,118 - check_color - INFO - Color {color} not found, returning gray
+2021-02-12 20:42:50,119 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:42:50] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-12 20:42:50,668 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:42:50] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:42:57,827 - check_color - INFO - Color {color} not found, returning gray
+2021-02-12 20:42:57,828 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:42:57] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-12 20:43:00,936 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:00] "[37mHEAD /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:43:00,944 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:00] "[33mHEAD /solid/ HTTP/1.1[0m" 404 -
+2021-02-12 20:43:02,439 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:02] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:43:13,554 - check_color - INFO - Color {color not found, returning gray
+2021-02-12 20:43:13,555 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:13] "[37mGET /solid/%7Bcolor HTTP/1.1[0m" 200 -
+2021-02-12 20:43:13,560 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:13] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:43:13,561 - check_color - INFO - Color {color} not found, returning gray
+2021-02-12 20:43:13,562 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:13] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-12 20:43:44,593 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:44] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2021-02-12 20:43:44,959 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:43:44] "[33mGET /solid/ HTTP/1.1[0m" 404 -
+2021-02-12 20:45:09,790 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:45:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:45:26,134 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:45:26] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:45:43,430 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:45:43] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:46:08,732 - check_color - INFO - Color {color} not found, returning gray
+2021-02-12 20:46:08,734 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:46:08] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-12 20:46:08,777 - check_color - INFO - Color {color} not found, returning gray
+2021-02-12 20:46:08,779 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:46:08] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-12 20:46:08,822 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:46:08] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:46:08,878 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:46:08] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-12 20:46:47,400 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:46:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:46:47,437 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:46:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 20:46:48,239 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 20:46:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 21:35:38,282 - <module> - INFO - notioncover starting...
+2021-02-12 21:35:38,325 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-12 22:02:46,855 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 22:02:46] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 22:03:21,479 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 22:03:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 22:03:41,708 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 22:03:41] "[33mGET /solid/ HTTP/1.1[0m" 404 -
+2021-02-12 22:03:43,776 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 22:03:43] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 22:15:53,774 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 22:15:53] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 22:16:25,719 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 22:16:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 22:19:09,538 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 22:19:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-12 23:19:26,162 - check_color - INFO - Color {color} not found, returning gray
+2021-02-12 23:19:26,164 - _log - INFO - 172.18.0.1 - - [12/Feb/2021 23:19:26] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-13 01:48:52,972 - check_color - INFO - Color {color} not found, returning gray
+2021-02-13 01:48:52,973 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 01:48:52] "[37mGET /solid/%7Bcolor%7D HTTP/1.1[0m" 200 -
+2021-02-13 01:48:53,269 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 01:48:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-13 02:52:50,218 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 02:52:50] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-13 02:53:26,998 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 02:53:26] "[37mGET /solid/e55812 HTTP/1.1[0m" 200 -
+2021-02-13 03:04:01,284 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:04:01] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-13 03:20:02,993 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:20:02] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-13 03:28:51,079 - <module> - INFO - notioncover starting...
+2021-02-13 03:28:51,092 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-13 03:29:09,233 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:29:09] "[33mGET / HTTP/1.1[0m" 404 -
+2021-02-13 03:29:16,690 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:29:16] "[33mGET /static/html/index.html HTTP/1.1[0m" 404 -
+2021-02-13 03:29:22,491 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:29:22] "[33mGET /html/index.html HTTP/1.1[0m" 404 -
+2021-02-13 03:29:39,109 - <module> - INFO - notioncover starting...
+2021-02-13 03:29:39,119 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-13 03:29:48,472 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:29:48] "[33mGET /html/index.html HTTP/1.1[0m" 404 -
+2021-02-13 03:29:53,131 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:29:53] "[33mGET /index.html HTTP/1.1[0m" 404 -
+2021-02-13 03:29:58,471 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:29:58] "[33mGET /static/index.html HTTP/1.1[0m" 404 -
+2021-02-13 03:30:37,792 - _log - INFO - 172.18.0.1 - - [13/Feb/2021 03:30:37] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-14 18:08:03,025 - <module> - INFO - notioncover starting...
+2021-02-14 18:08:03,037 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-02-14 19:54:27,931 - _log - INFO - 172.18.0.1 - - [14/Feb/2021 19:54:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-14 19:54:40,453 - _log - INFO - 172.18.0.1 - - [14/Feb/2021 19:54:40] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-14 19:55:08,958 - _log - INFO - 172.18.0.1 - - [14/Feb/2021 19:55:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-14 19:55:27,581 - _log - INFO - 172.18.0.1 - - [14/Feb/2021 19:55:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-14 19:59:20,057 - _log - INFO - 172.18.0.1 - - [14/Feb/2021 19:59:20] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-14 19:59:47,735 - _log - INFO - 172.18.0.1 - - [14/Feb/2021 19:59:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-14 20:52:45,072 - _log - INFO - 172.18.0.1 - - [14/Feb/2021 20:52:45] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-02 01:56:39,981 - <module> - INFO - notioncover starting...
+2021-03-02 01:56:39,992 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 01:56:40,615 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 01:56:40] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-02 02:11:58,246 - <module> - INFO - notioncover starting...
+2021-03-02 02:11:58,257 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:53:16,549 - <module> - INFO - notioncover starting...
+2021-03-02 02:53:16,577 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:54:05,553 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 83, in emoji
+    img = Image.new('RGB', (1500, 300), color = color)
+NameError: name 'color' is not defined
+2021-03-02 02:54:05,560 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:54:05] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:55:07,474 - <module> - INFO - notioncover starting...
+2021-03-02 02:55:07,486 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:55:11,677 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 88, in emoji
+    unicode_text = emoji.emojize(':thumbs_up:') #u"\U0001f618"
+AttributeError: 'str' object has no attribute 'emojize'
+2021-03-02 02:55:11,680 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:55:11] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:56:09,737 - <module> - INFO - notioncover starting...
+2021-03-02 02:56:09,756 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:56:13,239 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: emoji() got an unexpected keyword argument 'emoji'
+2021-03-02 02:56:13,242 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:56:13] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:56:56,484 - <module> - INFO - notioncover starting...
+2021-03-02 02:56:56,501 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:57:02,662 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 88, in emoji
+    unicode_text = emoji.emojize(emojistring) #u"\U0001f618"
+AttributeError: 'function' object has no attribute 'emojize'
+2021-03-02 02:57:02,664 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:57:02] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:58:38,711 - <module> - INFO - notioncover starting...
+2021-03-02 02:58:38,731 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:58:42,483 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 89, in draw_emoji
+    draw = ImageDraw.Draw(im)
+NameError: name 'ImageDraw' is not defined
+2021-03-02 02:58:42,486 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:58:42] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:58:44,313 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 89, in draw_emoji
+    draw = ImageDraw.Draw(im)
+NameError: name 'ImageDraw' is not defined
+2021-03-02 02:58:44,314 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:58:44] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:59:12,203 - <module> - INFO - notioncover starting...
+2021-03-02 02:59:12,217 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:59:14,725 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 89, in draw_emoji
+    draw = ImageDraw.Draw(im)
+NameError: name 'im' is not defined
+2021-03-02 02:59:14,727 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:59:14] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:59:39,477 - <module> - INFO - notioncover starting...
+2021-03-02 02:59:39,492 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 02:59:41,988 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 90, in draw_emoji
+    unicode_font = ImageFont.truetype("NotoColorEmoji.ttf", 109, layout_engine=ImageFont.LAYOUT_RAQM)
+NameError: name 'ImageFont' is not defined
+2021-03-02 02:59:41,991 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:59:41] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 02:59:44,455 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 90, in draw_emoji
+    unicode_font = ImageFont.truetype("NotoColorEmoji.ttf", 109, layout_engine=ImageFont.LAYOUT_RAQM)
+NameError: name 'ImageFont' is not defined
+2021-03-02 02:59:44,455 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 02:59:44] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 03:00:06,866 - <module> - INFO - notioncover starting...
+2021-03-02 03:00:06,884 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:00:08,835 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:00:08] "[37mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 200 -
+2021-03-02 03:01:12,913 - <module> - INFO - notioncover starting...
+2021-03-02 03:01:12,926 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:01:17,489 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:01:17] "[37mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 200 -
+2021-03-02 03:01:42,388 - <module> - INFO - notioncover starting...
+2021-03-02 03:01:42,401 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:01:45,135 - draw_emoji - INFO - Handling request for emoji :thumbsup: blue None
+2021-03-02 03:01:45,172 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:01:45] "[37mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 200 -
+2021-03-02 03:02:34,558 - <module> - INFO - notioncover starting...
+2021-03-02 03:02:34,581 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:02:42,006 - draw_emoji - INFO - Handling request for emoji :thumbsup: blue None
+2021-03-02 03:02:42,041 - log_exception - ERROR - Exception on /emoji/:thumbsup:/blue [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 91, in draw_emoji
+    draw.text((750, 150), unicode_text, font=unicode_font, anchor="mm", embedded_color=True, fill=black)
+NameError: name 'black' is not defined
+2021-03-02 03:02:42,044 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:02:42] "[35m[1mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 500 -
+2021-03-02 03:03:21,618 - <module> - INFO - notioncover starting...
+2021-03-02 03:03:21,649 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:03:22,976 - draw_emoji - INFO - Handling request for emoji :thumbsup: blue None
+2021-03-02 03:03:23,024 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:03:23] "[37mGET /emoji/:thumbsup:/blue HTTP/1.1[0m" 200 -
+2021-03-02 03:04:35,460 - draw_emoji - INFO - Handling request for emoji :thumbsup: white None
+2021-03-02 03:04:35,483 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:04:35] "[37mGET /emoji/:thumbsup:/white HTTP/1.1[0m" 200 -
+2021-03-02 03:05:54,149 - <module> - INFO - notioncover starting...
+2021-03-02 03:05:54,160 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:05:56,676 - draw_emoji - INFO - Handling request for emoji :thumbsup: white None
+2021-03-02 03:05:56,726 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:05:56] "[37mGET /emoji/:thumbsup:/white HTTP/1.1[0m" 200 -
+2021-03-02 03:07:05,982 - <module> - INFO - notioncover starting...
+2021-03-02 03:07:05,994 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:07:08,152 - draw_emoji - INFO - Handling request for emoji :thumbsup: white None
+2021-03-02 03:07:08,195 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:07:08] "[37mGET /emoji/:thumbsup:/white HTTP/1.1[0m" 200 -
+2021-03-02 03:07:38,903 - <module> - INFO - notioncover starting...
+2021-03-02 03:07:38,916 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:07:43,161 - draw_emoji - INFO - Handling request for emoji :thumbsup: yellow None
+2021-03-02 03:07:43,201 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:07:43] "[37mGET /emoji/:thumbsup:/yellow HTTP/1.1[0m" 200 -
+2021-03-02 03:08:43,463 - <module> - INFO - notioncover starting...
+2021-03-02 03:08:43,474 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:08:53,024 - draw_emoji - INFO - Handling request for emoji thumbsup yellow None
+2021-03-02 03:08:53,059 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:08:53] "[37mGET /emoji/thumbsup/yellow HTTP/1.1[0m" 200 -
+2021-03-02 03:09:31,765 - <module> - INFO - notioncover starting...
+2021-03-02 03:09:31,779 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-02 03:09:34,838 - draw_emoji - INFO - Handling request for emoji thumbsup yellow None
+2021-03-02 03:09:34,842 - draw_emoji - INFO - emojistring thumbsup -> :thumbsup:
+2021-03-02 03:09:34,891 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:09:34] "[37mGET /emoji/thumbsup/yellow HTTP/1.1[0m" 200 -
+2021-03-02 03:11:05,817 - draw_emoji - INFO - Handling request for emoji thumbs_up yellow None
+2021-03-02 03:11:05,819 - draw_emoji - INFO - emojistring thumbs_up -> 👍
+2021-03-02 03:11:05,851 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:11:05] "[37mGET /emoji/thumbs_up/yellow HTTP/1.1[0m" 200 -
+2021-03-02 03:17:37,466 - draw_emoji - INFO - Handling request for emoji thumbs_up yellow white
+2021-03-02 03:17:37,796 - draw_emoji - INFO - emojistring thumbs_up -> 👍
+2021-03-02 03:17:37,845 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:17:37] "[37mGET /emoji/thumbs_up/yellow/white HTTP/1.1[0m" 200 -
+2021-03-02 03:17:47,657 - draw_emoji - INFO - Handling request for emoji thumbs_up white yellow
+2021-03-02 03:17:47,973 - draw_emoji - INFO - emojistring thumbs_up -> 👍
+2021-03-02 03:17:48,021 - _log - INFO - 172.18.0.1 - - [02/Mar/2021 03:17:48] "[37mGET /emoji/thumbs_up/white/yellow HTTP/1.1[0m" 200 -
+2021-03-04 03:21:10,396 - <module> - INFO - notioncover starting...
+2021-03-04 03:21:10,411 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:21:10,433 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:21:10] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:23:03,873 - <module> - INFO - notioncover starting...
+2021-03-04 03:23:03,887 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:23:25,012 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:23:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 03:23:27,585 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:23:27] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:33:22,210 - draw_solid_color - INFO - Creating cover for solid #e9c46a
+2021-03-04 03:33:22,212 - draw_solid_color - INFO - Creating cover for solid #f4a261
+2021-03-04 03:33:22,214 - draw_solid_color - INFO - Creating cover for solid seagreen
+2021-03-04 03:33:22,215 - draw_solid_color - INFO - Creating cover for solid #e76f51
+2021-03-04 03:33:22,217 - draw_solid_color - INFO - Creating cover for solid beige
+2021-03-04 03:33:22,219 - draw_solid_color - INFO - Creating cover for solid skyblue
+2021-03-04 03:33:22,258 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:33:22] "[37mGET /solid/skyblue HTTP/1.1[0m" 200 -
+2021-03-04 03:33:22,263 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:33:22] "[37mGET /solid/f4a261 HTTP/1.1[0m" 200 -
+2021-03-04 03:33:22,270 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:33:22] "[37mGET /solid/beige HTTP/1.1[0m" 200 -
+2021-03-04 03:33:22,272 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:33:22] "[37mGET /solid/e76f51 HTTP/1.1[0m" 200 -
+2021-03-04 03:33:22,274 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:33:22] "[37mGET /solid/e9c46a HTTP/1.1[0m" 200 -
+2021-03-04 03:33:22,277 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:33:22] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-04 03:52:02,330 - <module> - INFO - notioncover starting...
+2021-03-04 03:52:02,340 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:52:25,607 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:52:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 03:52:25,870 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:52:25] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+2021-03-04 03:52:45,346 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:52:45] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:52:45,627 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:52:45] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+2021-03-04 03:53:53,138 - <module> - INFO - notioncover starting...
+2021-03-04 03:53:53,150 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:54:00,411 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:54:00] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:54:00,661 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:54:00] "[37mGET /js/script.js HTTP/1.1[0m" 200 -
+2021-03-04 03:55:30,054 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:55:30] "[37mGET /solid/e9c46a HTTP/1.1[0m" 200 -
+2021-03-04 03:55:30,055 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:55:30] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-04 03:55:30,057 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:55:30] "[37mGET /solid/beige HTTP/1.1[0m" 200 -
+2021-03-04 03:55:30,060 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:55:30] "[37mGET /solid/e76f51 HTTP/1.1[0m" 200 -
+2021-03-04 03:55:30,061 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:55:30] "[37mGET /solid/f4a261 HTTP/1.1[0m" 200 -
+2021-03-04 03:55:30,062 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:55:30] "[37mGET /solid/skyblue HTTP/1.1[0m" 200 -
+2021-03-04 03:55:52,172 - <module> - INFO - notioncover starting...
+2021-03-04 03:55:52,183 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:56:10,184 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:56:10] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:56:17,848 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:56:17] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:56:30,781 - <module> - INFO - notioncover starting...
+2021-03-04 03:56:30,792 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:56:34,397 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:56:34] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:56:36,968 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:56:36] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 03:56:55,172 - <module> - INFO - notioncover starting...
+2021-03-04 03:56:55,183 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:57:04,614 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:57:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 03:57:04,797 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:57:04] "[37mGET /js/script.js HTTP/1.1[0m" 200 -
+2021-03-04 03:57:05,832 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:57:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-03-04 03:59:31,989 - <module> - INFO - notioncover starting...
+2021-03-04 03:59:32,000 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 03:59:35,534 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 03:59:35] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:04:40,218 - <module> - INFO - notioncover starting...
+2021-03-04 04:04:40,231 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:04:46,183 - log_exception - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 54, in root
+    return Response(mhtml, mimetype='multipart/related')
+NameError: name 'Response' is not defined
+2021-03-04 04:04:46,186 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:04:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-04 04:05:17,199 - <module> - INFO - notioncover starting...
+2021-03-04 04:05:17,211 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:05:21,433 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:05:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:06:16,259 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:06:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:12:18,040 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:12:18] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:13:56,571 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:13:56] "[37mGET /solid/f4a261 HTTP/1.1[0m" 200 -
+2021-03-04 04:13:56,573 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:13:56] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-04 04:13:56,577 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:13:56] "[37mGET /solid/e76f51 HTTP/1.1[0m" 200 -
+2021-03-04 04:13:56,579 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:13:56] "[37mGET /solid/e9c46a HTTP/1.1[0m" 200 -
+2021-03-04 04:13:56,581 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:13:56] "[37mGET /solid/beige HTTP/1.1[0m" 200 -
+2021-03-04 04:13:56,583 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:13:56] "[37mGET /solid/skyblue HTTP/1.1[0m" 200 -
+2021-03-04 04:17:08,507 - <module> - INFO - notioncover starting...
+2021-03-04 04:17:08,523 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:17:12,249 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:12] "[33mGET / HTTP/1.1[0m" 404 -
+2021-03-04 04:17:29,915 - <module> - INFO - notioncover starting...
+2021-03-04 04:17:29,927 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:17:31,768 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:31] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:17:32,017 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,018 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,021 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,024 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,026 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,028 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,151 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,153 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:17:32,171 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:32] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:17:33,380 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:17:33] "[33mGET /images/favicon.ico HTTP/1.1[0m" 404 -
+2021-03-04 04:18:22,544 - <module> - INFO - notioncover starting...
+2021-03-04 04:18:22,558 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:18:25,229 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:18:25,446 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,450 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,452 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,455 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,457 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,458 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,663 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,665 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:25,667 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:25] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,390 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 04:18:27,567 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,568 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,570 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,575 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,579 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,580 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,686 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,687 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,804 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,806 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,807 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:27,925 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:27] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:28,104 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:28] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:28,180 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:28] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:33,007 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:33] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:33,011 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:33] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:33,013 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:33] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,171 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-04 04:18:40,417 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,421 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,424 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,427 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,431 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,432 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,729 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,730 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:18:40,733 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:18:40] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,341 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,343 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,345 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,346 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,348 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,349 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,463 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,465 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,553 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,555 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,556 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,761 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:03,868 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:03] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,157 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,160 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,161 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,163 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,164 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,166 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,337 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,339 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:21:04,341 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:21:04] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:21:57,390 - <module> - INFO - notioncover starting...
+2021-03-04 04:21:57,401 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:22:04,614 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:22:04,836 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:04] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:04,837 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:04] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:22:04,839 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:04] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:04,841 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:04] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:04,842 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:04] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:22:04,844 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:04] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:05,020 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:05] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:05,023 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:05] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:05,030 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:05] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:22:16,231 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:16] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:22:16,232 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:16] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:22:16,234 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:16] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:22:23,947 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:23] "[33mGET /seagreen-cff9e0fdee4245ffb9347a95e8705453 HTTP/1.1[0m" 404 -
+2021-03-04 04:22:27,395 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:27] "[33mGET /vendors~main-ec3b5fdd06f353d1ce58.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:27,407 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:27] "[33mGET /app-206ea6a960d5c98e7768.js HTTP/1.1[0m" 404 -
+2021-03-04 04:22:32,756 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:22:32] "[33mGET /seagreen-cff9e0fdee4245ffb9347a95e8705453 HTTP/1.1[0m" 404 -
+2021-03-04 04:24:58,440 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:24:58,641 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:24:58,645 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:24:58,646 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:24:58,659 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:24:58,666 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:24:58,668 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:24:58,910 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:24:58] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:27:22,475 - <module> - INFO - notioncover starting...
+2021-03-04 04:27:22,486 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:27:24,774 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:24] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:27:25,013 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:25] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:27:25,015 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:25] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:27:25,017 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:25] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:27:25,019 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:25] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:27:25,021 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:25] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:27:25,021 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:25] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:27:25,204 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:27:25] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:30:08,718 - <module> - INFO - notioncover starting...
+2021-03-04 04:30:08,728 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:30:11,710 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:11] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:30:11,959 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:11] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:30:11,963 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:11] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:30:11,966 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:11] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:30:11,975 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:11] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:30:11,978 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:11] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:30:11,980 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:11] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:30:12,376 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:30:12] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:31:33,094 - <module> - INFO - notioncover starting...
+2021-03-04 04:31:33,105 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-04 04:31:40,919 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:40] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:40,921 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:40] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:31:40,922 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:40] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:31:40,924 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:40] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:41,092 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:41] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,513 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-04 04:31:42,704 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,705 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,707 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,709 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,711 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,713 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,779 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,780 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,868 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-04 04:31:42,966 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:31:42] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-04 04:32:02,501 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:32:02] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-04 04:32:02,502 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:32:02] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-04 04:32:02,506 - _log - INFO - 172.18.0.1 - - [04/Mar/2021 04:32:02] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-07 01:39:03,413 - <module> - INFO - notioncover starting...
+2021-03-07 01:39:03,428 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 02:51:33,285 - draw_solid_color - INFO - Creating cover for solid #87CEEB
+2021-03-07 02:51:33,312 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:51:33] "[37mGET /solid/87CEEB HTTP/1.1[0m" 200 -
+2021-03-07 02:53:45,116 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:53:45] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-07 02:59:22,034 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-07 02:59:22,184 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-07 02:59:22,185 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-07 02:59:22,187 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-07 02:59:22,189 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-07 02:59:22,204 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-07 02:59:22,206 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-07 02:59:22,568 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-07 02:59:22,572 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-07 02:59:22,597 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[37mGET /solid/e9c46a HTTP/1.1[0m" 200 -
+2021-03-07 02:59:22,628 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[37mGET /solid/beige HTTP/1.1[0m" 200 -
+2021-03-07 02:59:22,628 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[37mGET /solid/f4a261 HTTP/1.1[0m" 200 -
+2021-03-07 02:59:22,629 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[37mGET /solid/skyblue HTTP/1.1[0m" 200 -
+2021-03-07 02:59:22,629 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 02:59:22] "[37mGET /solid/e76f51 HTTP/1.1[0m" 200 -
+2021-03-07 03:03:12,112 - <module> - INFO - notioncover starting...
+2021-03-07 03:03:12,125 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 03:03:21,933 - draw_emoji - INFO - Handling request for emoji thumbs_up white yellow
+2021-03-07 03:03:22,095 - draw_emoji - INFO - emojistring thumbs_up -> 👍
+2021-03-07 03:03:22,137 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:03:22] "[37mGET /emoji/thumbs_up/white/yellow HTTP/1.1[0m" 200 -
+2021-03-07 03:03:25,830 - draw_emoji - INFO - Handling request for emoji thumbs_up white red
+2021-03-07 03:03:25,991 - draw_emoji - INFO - emojistring thumbs_up -> 👍
+2021-03-07 03:03:26,018 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:03:26] "[37mGET /emoji/thumbs_up/white/red HTTP/1.1[0m" 200 -
+2021-03-07 03:03:38,646 - draw_solid_color - INFO - Creating cover for solid lightskyblue
+2021-03-07 03:03:38,665 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:03:38] "[37mGET /solid/lightskyblue HTTP/1.1[0m" 200 -
+2021-03-07 03:13:17,568 - <module> - INFO - notioncover starting...
+2021-03-07 03:13:17,577 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 03:13:25,426 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,428 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,429 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,430 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,433 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,434 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,524 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,600 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,601 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-07 03:13:25,744 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:13:25] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-07 03:15:26,277 - draw_emoji - INFO - Handling request for emoji dollar 99ff99 None
+2021-03-07 03:15:26,282 - draw_emoji - INFO - emojistring dollar -> 💵
+2021-03-07 03:15:26,285 - draw_emoji - INFO - Handling request for emoji tada ffffaa None
+2021-03-07 03:15:26,286 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:26] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-07 03:15:26,287 - draw_emoji - INFO - emojistring tada -> 🎉
+2021-03-07 03:15:26,290 - draw_emoji - INFO - Handling request for emoji rage crimson coral
+2021-03-07 03:15:26,290 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:26] "[37mGET /solid/87CEEB HTTP/1.1[0m" 200 -
+2021-03-07 03:15:26,291 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:26] "[37mGET /solid/beige HTTP/1.1[0m" 200 -
+2021-03-07 03:15:26,360 - draw_gradient - INFO - Creating cover for gradient aqua -> azure
+2021-03-07 03:15:26,371 - draw_gradient - INFO - Creating cover for gradient crimson -> coral
+2021-03-07 03:15:26,373 - draw_gradient - INFO - Creating cover for gradient gold -> #fffacd
+2021-03-07 03:15:27,103 - draw_emoji - INFO - emojistring rage -> 😡
+2021-03-07 03:15:27,247 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:27] "[37mGET /gradient/aqua/azure HTTP/1.1[0m" 200 -
+2021-03-07 03:15:27,254 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:27] "[37mGET /emoji/dollar/99ff99 HTTP/1.1[0m" 200 -
+2021-03-07 03:15:27,276 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:27] "[37mGET /gradient/gold/fffacd HTTP/1.1[0m" 200 -
+2021-03-07 03:15:27,291 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:27] "[37mGET /gradient/crimson/coral HTTP/1.1[0m" 200 -
+2021-03-07 03:15:27,293 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:27] "[37mGET /emoji/rage/crimson/coral HTTP/1.1[0m" 200 -
+2021-03-07 03:15:27,296 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:15:27] "[37mGET /emoji/tada/ffffaa HTTP/1.1[0m" 200 -
+2021-03-07 03:16:11,611 - <module> - INFO - notioncover starting...
+2021-03-07 03:16:11,625 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 03:16:15,612 - _proxy - INFO - host_url: http://www.coversfornotion.com/
+2021-03-07 03:16:15,995 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:16:15] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-07 03:16:48,675 - _proxy - INFO - host_url: http://www.coversfornotion.com/
+2021-03-07 03:16:48,901 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:16:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-07 03:17:41,281 - <module> - INFO - notioncover starting...
+2021-03-07 03:17:41,294 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 03:17:44,439 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-07 03:17:44,771 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,776 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,778 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,779 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,781 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,783 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,876 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,919 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-07 03:17:44,940 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:44] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-07 03:17:45,011 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:17:45] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-07 03:18:09,418 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[36mGET / HTTP/1.1[0m" 304 -
+2021-03-07 03:18:09,538 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[33mGET /vendors~main-aa07f589b8b4b537cd5a.css HTTP/1.1[0m" 404 -
+2021-03-07 03:18:09,539 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[33mGET /app-ef53fd7963d13b860d9d.css HTTP/1.1[0m" 404 -
+2021-03-07 03:18:09,600 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[33mGET /vendors~markdown-linkify-it-303f2958cb3ad59098be.js HTTP/1.1[0m" 404 -
+2021-03-07 03:18:09,604 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[33mGET /mobile~postRender-2a206d9ba88e45347566.js HTTP/1.1[0m" 404 -
+2021-03-07 03:18:09,681 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[33mGET /front-pages~postRender-3425cebda5a0a83bf079.js HTTP/1.1[0m" 404 -
+2021-03-07 03:18:09,696 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[33mGET /postRender-cfa976a59ced3a6876f2.js HTTP/1.1[0m" 404 -
+2021-03-07 03:18:09,753 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:18:09] "[33mGET /print.b31f28aa.css HTTP/1.1[0m" 404 -
+2021-03-07 03:21:22,933 - <module> - INFO - notioncover starting...
+2021-03-07 03:21:22,943 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 03:21:33,539 - log_exception - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 52, in root
+    return redirect("https://www.notion.so/basilhayek/Covers-for-Notion-32e8918fbc3f46f6a8006f21a747cb96", code=302)
+NameError: name 'redirect' is not defined
+2021-03-07 03:21:33,544 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:21:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-07 03:22:04,979 - <module> - INFO - notioncover starting...
+2021-03-07 03:22:04,990 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 03:22:13,084 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:13] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-07 03:22:16,278 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /solid/87CEEB HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,279 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /gradient/gold/fffacd HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,281 - draw_emoji - INFO - Handling request for emoji tada ffffaa None
+2021-03-07 03:22:16,284 - draw_emoji - INFO - Handling request for emoji dollar 99ff99 None
+2021-03-07 03:22:16,286 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /gradient/aqua/azure HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,287 - draw_emoji - INFO - emojistring tada -> 🎉
+2021-03-07 03:22:16,288 - draw_emoji - INFO - emojistring dollar -> 💵
+2021-03-07 03:22:16,290 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,291 - draw_emoji - INFO - Handling request for emoji rage crimson coral
+2021-03-07 03:22:16,291 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /solid/beige HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,294 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /gradient/crimson/coral HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,474 - draw_emoji - INFO - emojistring rage -> 😡
+2021-03-07 03:22:16,508 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /emoji/rage/crimson/coral HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,513 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /emoji/dollar/99ff99 HTTP/1.1[0m" 200 -
+2021-03-07 03:22:16,515 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 03:22:16] "[37mGET /emoji/tada/ffffaa HTTP/1.1[0m" 200 -
+2021-03-07 15:49:05,394 - <module> - INFO - notioncover starting...
+2021-03-07 15:49:05,404 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-07 19:14:34,027 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 19:14:34] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-07 19:15:55,502 - _log - INFO - 172.18.0.1 - - [07/Mar/2021 19:15:55] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:24:46,828 - <module> - INFO - notioncover starting...
+2021-03-25 01:24:46,839 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-25 01:24:48,030 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:24:48] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:25:33,895 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:25:33] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:26:48,222 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:27:36,310 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:27:36] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:27:37,061 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:27:37] "[32mGET / HTTP/1.1[0m" 302 -
