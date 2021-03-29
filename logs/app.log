@@ -744,3 +744,437 @@ NameError: name 'redirect' is not defined
 2021-03-25 01:26:48,222 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:26:48] "[32mGET / HTTP/1.1[0m" 302 -
 2021-03-25 01:27:36,310 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:27:36] "[32mGET / HTTP/1.1[0m" 302 -
 2021-03-25 01:27:37,061 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:27:37] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:29:20,768 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:29:20] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:46:19,483 - <module> - INFO - notioncover starting...
+2021-03-25 01:46:27,170 - <module> - INFO - notioncover starting...
+2021-03-25 01:46:27,184 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-25 01:46:33,280 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:46:33] "[32mGET /clouds HTTP/1.1[0m" 302 -
+2021-03-25 01:46:54,581 - draw_emoji - INFO - Handling request for emoji pensive skyblue 000099
+2021-03-25 01:46:54,603 - draw_emoji - INFO - Handling request for emoji thumbs_up yellow None
+2021-03-25 01:46:54,605 - draw_emoji - INFO - emojistring thumbs_up -> 👍
+2021-03-25 01:46:54,747 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:46:54] "[37mGET /gradient/cyan/white HTTP/1.1[0m" 200 -
+2021-03-25 01:46:54,764 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:46:54] "[37mGET /gradient/yellow/red HTTP/1.1[0m" 200 -
+2021-03-25 01:46:54,799 - draw_emoji - INFO - emojistring pensive -> 😔
+2021-03-25 01:46:55,012 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:46:55] "[37mGET /emoji/thumbs_up/yellow HTTP/1.1[0m" 200 -
+2021-03-25 01:46:55,029 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:46:55] "[37mGET /emoji/pensive/skyblue/000099 HTTP/1.1[0m" 200 -
+2021-03-25 01:47:20,611 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:47:20] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:47:20,669 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:47:20] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 01:47:53,419 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:47:53] "[32mGET /clouds HTTP/1.1[0m" 302 -
+2021-03-25 01:49:44,270 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 01:49:44] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 02:00:12,838 - <module> - INFO - notioncover starting...
+2021-03-25 02:00:12,852 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-25 02:00:28,714 - log_exception - ERROR - Exception on /map/boston/15 [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 152, in get_map
+    "&maptype=" + map_type
+NameError: name 'map_type' is not defined
+2021-03-25 02:00:28,764 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 02:00:28] "[35m[1mGET /map/boston/15 HTTP/1.1[0m" 500 -
+2021-03-25 02:00:30,709 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 02:00:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-03-25 02:00:56,452 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 02:00:56] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 02:01:08,050 - <module> - INFO - notioncover starting...
+2021-03-25 02:01:08,065 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-25 02:01:11,975 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 02:01:11] "[32mGET /map/boston/15 HTTP/1.1[0m" 302 -
+2021-03-25 02:01:41,784 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 02:01:41] "[32mGET /map/boston/15/satellite HTTP/1.1[0m" 302 -
+2021-03-25 02:02:07,439 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 02:02:07] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-25 02:02:28,721 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 02:02:28] "[32mGET /map/boston/15/satellite HTTP/1.1[0m" 302 -
+2021-03-25 19:42:24,319 - <module> - INFO - notioncover starting...
+2021-03-25 19:42:24,336 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-25 23:22:15,308 - _log - INFO - 172.18.0.1 - - [25/Mar/2021 23:22:15] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:05:23,432 - <module> - INFO - notioncover starting...
+2021-03-26 00:05:23,449 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:05:24,450 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:05:24] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:05:43,689 - log_exception - ERROR - Exception on /place/nasa [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 129, in get_place_photo
+    resp = requests.get(url.format(place, api_key))
+NameError: name 'requests' is not defined
+2021-03-26 00:05:43,734 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:05:43] "[35m[1mGET /place/nasa HTTP/1.1[0m" 500 -
+2021-03-26 00:06:23,479 - <module> - INFO - notioncover starting...
+2021-03-26 00:06:23,493 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:06:26,248 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:06:26] "[32mGET /place/nasa HTTP/1.1[0m" 302 -
+2021-03-26 00:07:22,198 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:07:22] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:07:23,241 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:07:23] "[33mGET /places/moma HTTP/1.1[0m" 404 -
+2021-03-26 00:07:33,502 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:07:33] "[32mGET /place/moma HTTP/1.1[0m" 302 -
+2021-03-26 00:07:45,481 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:07:45] "[32mGET /place/nasa HTTP/1.1[0m" 302 -
+2021-03-26 00:07:54,416 - log_exception - ERROR - Exception on /place/whitehouse [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 132, in get_place_photo
+    photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+KeyError: 'photos'
+2021-03-26 00:07:54,420 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:07:54] "[35m[1mGET /place/whitehouse HTTP/1.1[0m" 500 -
+2021-03-26 00:08:15,038 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:08:15] "[32mGET /place/white%20house HTTP/1.1[0m" 302 -
+2021-03-26 00:08:43,816 - log_exception - ERROR - Exception on /place/statue of liberty [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 132, in get_place_photo
+    photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+KeyError: 'photos'
+2021-03-26 00:08:43,817 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:08:43] "[35m[1mGET /place/statue%20of%20liberty HTTP/1.1[0m" 500 -
+2021-03-26 00:09:51,222 - log_exception - ERROR - Exception on /place/statue of liberty [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 132, in get_place_photo
+    photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+KeyError: 'photos'
+2021-03-26 00:09:51,223 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:09:51] "[35m[1mGET /place/statue%20of%20liberty HTTP/1.1[0m" 500 -
+2021-03-26 00:11:13,019 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:11:13] "[32mGET /map/boston/15 HTTP/1.1[0m" 302 -
+2021-03-26 00:11:57,947 - <module> - INFO - notioncover starting...
+2021-03-26 00:11:57,962 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:12:00,908 - log_exception - ERROR - Exception on /place/statue of liberty [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 134, in get_place_photo
+    photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+KeyError: 'photos'
+2021-03-26 00:12:00,911 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:12:00] "[35m[1mGET /place/statue%20of%20liberty HTTP/1.1[0m" 500 -
+2021-03-26 00:12:27,867 - <module> - INFO - notioncover starting...
+2021-03-26 00:12:27,882 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:12:30,429 - get_place_photo - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=statue of liberty&inputtype=textquery&fields=photos,type&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:12:30,433 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:12:30,455 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=statue%20of%20liberty&inputtype=textquery&fields=photos,type&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 119
+2021-03-26 00:12:30,457 - get_place_photo - DEBUG - {'candidates': [{'types': ['museum', 'point_of_interest', 'establishment']}], 'status': 'OK'}
+2021-03-26 00:12:30,458 - log_exception - ERROR - Exception on /place/statue of liberty [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 134, in get_place_photo
+    photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+KeyError: 'photos'
+2021-03-26 00:12:30,460 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:12:30] "[35m[1mGET /place/statue%20of%20liberty HTTP/1.1[0m" 500 -
+2021-03-26 00:13:28,276 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:13:28] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:18:10,511 - <module> - INFO - notioncover starting...
+2021-03-26 00:18:10,525 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:18:16,394 - get_place_photo - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=statue of liberty&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:18:16,398 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:18:17,103 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=statue%20of%20liberty&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 144
+2021-03-26 00:18:17,106 - get_place_photo - DEBUG - {'candidates': [{'name': 'Mini Statue of Liberty', 'types': ['museum', 'point_of_interest', 'establishment']}], 'status': 'OK'}
+2021-03-26 00:18:17,107 - log_exception - ERROR - Exception on /place/statue of liberty [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 134, in get_place_photo
+    photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+KeyError: 'photos'
+2021-03-26 00:18:17,113 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:18:17] "[35m[1mGET /place/statue%20of%20liberty HTTP/1.1[0m" 500 -
+2021-03-26 00:19:06,366 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:19:06] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:24:23,164 - <module> - INFO - notioncover starting...
+2021-03-26 00:24:23,189 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:24:32,384 - log_exception - ERROR - Exception on /map/north end/1 [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 147, in get_map
+    logging.debug(url.format(place, api_key))
+NameError: name 'place' is not defined
+2021-03-26 00:24:32,387 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:24:32] "[35m[1mGET /map/north%20end/1 HTTP/1.1[0m" 500 -
+2021-03-26 00:25:05,681 - <module> - INFO - notioncover starting...
+2021-03-26 00:25:05,697 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:25:08,283 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=north end&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:25:08,288 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:25:08,955 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=north%20end&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 434
+2021-03-26 00:25:08,958 - get_map - DEBUG - {'candidates': [{'name': 'North End', 'photos': [{'height': 3024, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/111555170240291436349">Anthony Craig Evans</a>'], 'photo_reference': 'ATtYBwJwcjiTCtlce2b__JhcBlQZIJHgpSXTAar8segR-gLSn0ANaUUOh7NUUpbtpsslwu3dK8Yzkx3GBor21u-_9r7XqJbp2bAOZPJegwyH-wGAfWxEgyx5XJFTmE9ZP38cwnHMFNsQAHDGJnodh6ojyeWuXDCFf4kB9nDCFh-c5BNVt_cq', 'width': 3024}], 'types': ['neighborhood', 'political']}], 'status': 'OK'}
+2021-03-26 00:25:08,960 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:25:08] "[32mGET /map/north%20end/1 HTTP/1.1[0m" 302 -
+2021-03-26 00:26:05,678 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:26:05] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:28:57,852 - <module> - INFO - notioncover starting...
+2021-03-26 00:28:57,870 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:29:13,984 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=north end&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:29:13,989 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:29:14,018 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=north%20end&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 434
+2021-03-26 00:29:14,022 - get_map - DEBUG - ['neighborhood', 'political']
+2021-03-26 00:29:14,024 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:29:14] "[32mGET /map/north%20end HTTP/1.1[0m" 302 -
+2021-03-26 00:29:33,252 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:29:33] "[33mGET /maps/boston HTTP/1.1[0m" 404 -
+2021-03-26 00:29:43,327 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:29:43,329 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:29:43,796 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 428
+2021-03-26 00:29:43,799 - get_map - DEBUG - ['locality', 'political']
+2021-03-26 00:29:43,800 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:29:43] "[32mGET /map/boston HTTP/1.1[0m" 302 -
+2021-03-26 00:29:53,852 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:29:53] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:33:05,057 - <module> - INFO - notioncover starting...
+2021-03-26 00:33:05,075 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:33:06,154 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:06] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:33:10,289 - draw_solid_color - DEBUG - Handling request for solid seagreen
+2021-03-26 00:33:10,291 - draw_emoji - INFO - Handling request for emoji dollar 99ff99 None
+2021-03-26 00:33:10,297 - draw_solid_color - DEBUG - Handling request for solid beige
+2021-03-26 00:33:10,300 - draw_gradient - DEBUG - Handling request for gradient aqua -> azure
+2021-03-26 00:33:10,301 - draw_emoji - INFO - emojistring dollar -> 💵
+2021-03-26 00:33:10,301 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /solid/seagreen HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,303 - draw_emoji - INFO - Handling request for emoji rage crimson coral
+2021-03-26 00:33:10,305 - draw_gradient - DEBUG - Handling request for gradient crimson -> coral
+2021-03-26 00:33:10,316 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /gradient/crimson/coral HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,310 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /gradient/aqua/azure HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,314 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /solid/beige HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,309 - draw_gradient - DEBUG - Handling request for gradient gold -> fffacd
+2021-03-26 00:33:10,324 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /gradient/gold/fffacd HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,329 - draw_solid_color - DEBUG - Handling request for solid 87CEEB
+2021-03-26 00:33:10,331 - draw_emoji - INFO - Handling request for emoji tada ffffaa None
+2021-03-26 00:33:10,345 - draw_emoji - INFO - emojistring tada -> 🎉
+2021-03-26 00:33:10,357 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /solid/87CEEB HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,598 - draw_emoji - INFO - emojistring rage -> 😡
+2021-03-26 00:33:10,640 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /emoji/dollar/99ff99 HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,651 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /emoji/tada/ffffaa HTTP/1.1[0m" 200 -
+2021-03-26 00:33:10,654 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:10] "[37mGET /emoji/rage/crimson/coral HTTP/1.1[0m" 200 -
+2021-03-26 00:33:33,565 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:33:33,572 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:33:33,604 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 428
+2021-03-26 00:33:33,610 - get_map - DEBUG - ['locality', 'political']
+2021-03-26 00:33:33,611 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:33] "[32mGET /map/boston HTTP/1.1[0m" 302 -
+2021-03-26 00:33:50,790 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=provincetown&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:33:50,792 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:33:51,094 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=provincetown&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 435
+2021-03-26 00:33:51,096 - get_map - DEBUG - ['locality', 'political']
+2021-03-26 00:33:51,097 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:51] "[32mGET /map/provincetown HTTP/1.1[0m" 302 -
+2021-03-26 00:33:58,140 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:33:58,144 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:33:58,170 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 428
+2021-03-26 00:33:58,173 - get_map - DEBUG - ['locality', 'political']
+2021-03-26 00:33:58,175 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:58] "[32mGET /map/boston HTTP/1.1[0m" 302 -
+2021-03-26 00:33:59,972 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:33:59] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:34:01,946 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=cape cod&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:34:01,949 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:34:02,603 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=cape%20cod&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 435
+2021-03-26 00:34:02,606 - get_map - DEBUG - ['natural_feature', 'establishment']
+2021-03-26 00:34:02,608 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:34:02] "[32mGET /map/cape%20cod HTTP/1.1[0m" 302 -
+2021-03-26 00:35:00,347 - <module> - INFO - notioncover starting...
+2021-03-26 00:35:00,363 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:35:21,786 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=cape cod&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:35:21,791 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:35:21,832 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=cape%20cod&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 435
+2021-03-26 00:35:21,849 - get_map - DEBUG - ['natural_feature', 'establishment']
+2021-03-26 00:35:21,851 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:35:21] "[32mGET /map/cape%20cod HTTP/1.1[0m" 302 -
+2021-03-26 00:35:31,088 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=cape cod bay&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:35:31,090 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:35:31,430 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=cape%20cod%20bay&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 442
+2021-03-26 00:35:31,433 - get_map - DEBUG - ['natural_feature', 'establishment']
+2021-03-26 00:35:31,434 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:35:31] "[32mGET /map/cape%20cod%20bay HTTP/1.1[0m" 302 -
+2021-03-26 00:35:43,264 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=texas&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:35:43,267 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:35:43,756 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=texas&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 439
+2021-03-26 00:35:43,759 - get_map - DEBUG - ['administrative_area_level_1', 'political']
+2021-03-26 00:35:43,761 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:35:43] "[32mGET /map/texas HTTP/1.1[0m" 302 -
+2021-03-26 00:35:50,064 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=germany&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:35:50,067 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:35:50,438 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=germany&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 429
+2021-03-26 00:35:50,441 - get_map - DEBUG - ['country', 'political']
+2021-03-26 00:35:50,442 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:35:50] "[32mGET /map/germany HTTP/1.1[0m" 302 -
+2021-03-26 00:36:00,108 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:36:00] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:37:21,001 - <module> - INFO - notioncover starting...
+2021-03-26 00:37:21,016 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:37:36,217 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:37:36,223 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:37:36,677 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 424
+2021-03-26 00:37:36,679 - get_map - DEBUG - ['locality', 'political']
+2021-03-26 00:37:36,684 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:37:36] "[32mGET /map/boston HTTP/1.1[0m" 302 -
+2021-03-26 00:37:44,060 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=texas&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:37:44,063 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:37:44,079 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=texas&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 439
+2021-03-26 00:37:44,083 - get_map - DEBUG - ['administrative_area_level_1', 'political']
+2021-03-26 00:37:44,084 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:37:44] "[32mGET /map/texas HTTP/1.1[0m" 302 -
+2021-03-26 00:37:59,623 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=germany&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:37:59,625 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:37:59,645 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=germany&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 429
+2021-03-26 00:37:59,648 - get_map - DEBUG - ['country', 'political']
+2021-03-26 00:37:59,649 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:37:59] "[32mGET /map/germany HTTP/1.1[0m" 302 -
+2021-03-26 00:38:12,561 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=hong kong&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:38:12,564 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:38:12,958 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=hong%20kong&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 423
+2021-03-26 00:38:12,960 - get_map - DEBUG - ['country', 'political']
+2021-03-26 00:38:12,962 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:38:12] "[32mGET /map/hong%20kong HTTP/1.1[0m" 302 -
+2021-03-26 00:38:21,280 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:38:21] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:42:07,173 - <module> - INFO - notioncover starting...
+2021-03-26 00:42:07,189 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:42:16,277 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=02113&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:42:16,289 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:42:16,694 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=02113&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 116
+2021-03-26 00:42:16,700 - get_map - DEBUG - ['postal_code']
+2021-03-26 00:42:16,701 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:42:16] "[32mGET /map/02113 HTTP/1.1[0m" 302 -
+2021-03-26 00:42:29,443 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=logan airport&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:42:29,446 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:42:30,423 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=logan%20airport&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 458
+2021-03-26 00:42:30,426 - get_map - DEBUG - ['airport', 'point_of_interest', 'establishment']
+2021-03-26 00:42:30,427 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:42:30] "[32mGET /map/logan%20airport HTTP/1.1[0m" 302 -
+2021-03-26 00:43:24,532 - <module> - INFO - notioncover starting...
+2021-03-26 00:43:24,556 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:43:35,279 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=logan airport&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:43:35,283 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:43:35,305 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=logan%20airport&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 458
+2021-03-26 00:43:35,308 - get_map - DEBUG - ['airport', 'point_of_interest', 'establishment']
+2021-03-26 00:43:35,310 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:43:35] "[32mGET /map/logan%20airport HTTP/1.1[0m" 302 -
+2021-03-26 00:43:41,288 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:43:41] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:50:22,535 - <module> - INFO - notioncover starting...
+2021-03-26 00:50:22,558 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:50:31,868 - log_exception - ERROR - Exception on /satellite/boston [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 185, in get_satellite
+    return get_map(center, zoom, 'satellite')
+TypeError: get_map() takes from 1 to 2 positional arguments but 3 were given
+2021-03-26 00:50:31,871 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:50:31] "[35m[1mGET /satellite/boston HTTP/1.1[0m" 500 -
+2021-03-26 00:50:56,061 - <module> - INFO - notioncover starting...
+2021-03-26 00:50:56,081 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-26 00:50:58,258 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-26 00:50:58,264 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-26 00:50:58,911 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 428
+2021-03-26 00:50:58,914 - get_map - DEBUG - ['locality', 'political']
+2021-03-26 00:50:58,916 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:50:58] "[32mGET /satellite/boston HTTP/1.1[0m" 302 -
+2021-03-26 00:51:55,549 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:51:55] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-26 00:52:52,831 - _log - INFO - 172.18.0.1 - - [26/Mar/2021 00:52:52] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-28 15:41:19,006 - <module> - INFO - notioncover starting...
+2021-03-28 15:41:19,020 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-28 15:41:33,685 - _log - INFO - 172.18.0.1 - - [28/Mar/2021 15:41:33] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-29 01:33:17,748 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=types&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-29 01:33:17,752 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-29 01:33:18,250 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=types&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 100
+2021-03-29 01:33:18,254 - get_map - DEBUG - ['locality', 'political']
+2021-03-29 01:33:18,255 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:33:18] "[32mGET /map/boston HTTP/1.1[0m" 302 -
+2021-03-29 01:34:18,072 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:34:18] "[32mGET /map/north%20end/1 HTTP/1.1[0m" 302 -
+2021-03-29 01:35:18,045 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:35:18] "[33mGET /maps/boston HTTP/1.1[0m" 404 -
+2021-03-29 01:36:18,279 - get_place_photo - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=nasa&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-29 01:36:18,282 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-29 01:36:18,893 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=nasa&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 472
+2021-03-29 01:36:18,896 - get_place_photo - DEBUG - {'candidates': [{'name': 'NASA Johnson Space Center', 'photos': [{'height': 3036, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115355183312593381069">Russell &amp; Michelle</a>'], 'photo_reference': 'ATtYBwJD1nLwqrVad46QN4Blpu6v2roS9RD9mMwq8asQSQkVLDUWAEaY5Pjea3ZQnTxmZKYqrxFppl31zQna4dC4rz5-YX_jEDESdsjKNszYp4uqJsawnW2zXUrl0-D5Xwbt09EfmRyMEyS-utjnxLzl-Jg1leRb_zD9TOCHnCPSqflFWpyg', 'width': 4048}], 'types': ['tourist_attraction', 'point_of_interest', 'establishment']}], 'status': 'OK'}
+2021-03-29 01:36:18,897 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:36:18] "[32mGET /place/nasa HTTP/1.1[0m" 302 -
+2021-03-29 01:37:18,474 - get_place_photo - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=statue of liberty&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-29 01:37:18,477 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-29 01:37:19,291 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=statue%20of%20liberty&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 2014
+2021-03-29 01:37:19,293 - get_place_photo - DEBUG - {'candidates': [{'name': 'Statue of Liberty Replica', 'photos': [{'height': 2048, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/117212553691882517585">Eric Hopp</a>'], 'photo_reference': 'ATtYBwIZgjrYQl8JCvf166tRrLfwNz_70cexZ7rwAIwYfk492-tKG-FUJ0FV6_3S7RFx00_829spksWFsl6PjsBhE5Kzd2idpkvC_-qcGBTiKwIyUVcOOb-NDEMtxsfZxsWCQLFuzYU5i4FLV-8FROFlLMRb79222M1foJ85ogHKtpmsrdwI', 'width': 1536}]}, {'name': 'Mini Statue of Liberty', 'types': ['museum', 'point_of_interest', 'establishment']}, {'name': 'Statue of Liberty Replica'}, {'name': 'Mini Statue of Liberty', 'photos': [{'height': 4608, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109336747564931027123">A.J. Loder</a>'], 'photo_reference': 'ATtYBwJeDCpOpXf5avXrW3fLCBstDoPrhhHiRc7EkO2Dy97_zI5WsC6gMYSL5dB5AaXJ2MeJxG4gDOtePUuFDJCEfznNi-IZOERtx0cVODa0WxXIb9zehHIcva1BIsGEKWKpDL7LoUg0VDeO6IeT-0f28JZLH2GSMQ3G5rUaE9xpEIsw4GuF', 'width': 3456}], 'types': ['point_of_interest', 'establishment']}, {'name': 'Statue of Liberty Replica', 'photos': [{'height': 2816, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/114167806152350542890">Miklós Kiss</a>'], 'photo_reference': 'ATtYBwKNa_4VIPm5VFFMGGYpJmmCqUNt7VgDabhg9SFDIy2iOJGqRmMon_YnwZuY0cHr8AT1_eP7Y0AUJpupaWsMwDX7rzR1E5XNV5IrXEvT8a612-je1BW9pC9QQsYpm4Ze94T9F-hHIqhR1gETAuFh-Xm_yKJEu-M3mGEivXpM-3V9HcZq', 'width': 2112}]}, {'name': "Indy's Teeny Statue Of Liberty Museum", 'photos': [{'height': 1080, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/104133515766368283132">S Alexander</a>'], 'photo_reference': 'ATtYBwJPHUANxyBsjAJstx4tjPIPNrNcIodoaADaHdX3KBQhZUJW05c3u1wI9Nh3NnyYhXmO1DTOwzdG3Xv1eQPdry-Cq-rSFsTg8Mrc4LnkajF7s22CeFPahgQTIsLPQ0IWRPVkc17cXbKym1QYUMYWdxPFLGxvpN7PBWCUJyxoGKA1SrtC', 'width': 1080}], 'types': ['museum', 'tourist_attraction', 'point_of_interest', 'establishment']}, {'name': 'Liberty Park', 'photos': [{'height': 2448, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/102940953233360179124">A Google User</a>'], 'photo_reference': 'ATtYBwI68XveTgVkn56BP7brWqcwLuSKuZ8B_7B4fYIs2lNML3fjTMrKY2ldmHG5oYXFDDwNwqoDjmexxD35i5qpV0FtC-lO7EljQz8nuyjUaFPWAb9y4musD2q-DhgfdOJOJ_lLvs8CsJkt3-CTOZK4afhfxfVhM2X0D6RPFWPT0Ua0Tg43', 'width': 3264}], 'types': ['park', 'tourist_attraction', 'point_of_interest', 'establishment']}, {'name': 'Susan B Anthony Statue', 'photos': [{'height': 960, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109619198871676911180">Phyllis A Sears</a>'], 'photo_reference': 'ATtYBwIZcyhKKZfMlm-W7Hw77AuPABdqPGq1woosqVEndeAl308SZM8hqk1JZZdFo0zZwZAFxe-yCchZ843bIXgX4-Tg2EXqh0Xk-TGKbGUfrcl5W0-47P477rBOWSkNfb_NSlT8mgtwWtgpJwJiZcJve_Lo7YOu9rVEf4jrQ-u8ECyr0ZN9', 'width': 588}], 'types': ['point_of_interest', 'establishment']}, {'name': 'Statue of Liberation', 'photos': [{'height': 2905, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/104111840199089999160">igor marinovic</a>'], 'photo_reference': 'ATtYBwIuhDVKEfzcHuDVeNPnjyIyv-mV46kPF3AZ-25AjotRzERBu7-RzHm7u6KejKPoTcoeYgnkzlLDK9KrVhb23cMKgQbdnl0DNynOGBTVtq_ztFjjcWjpG9QqV_QC5YvCYVL8WTi10PjhkDAIqzK-RUpCtE2fQKlj81FYSkIxowGKlMsT', 'width': 2178}], 'types': ['point_of_interest', 'establishment']}, {'name': 'Statue of Liberty National Monument', 'photos': [{'height': 2672, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116571852186608236356">Ricardo Perez</a>'], 'photo_reference': 'ATtYBwJNBuNg0bIXNLW10KCYN5rSRL0WOQWBpfd0xHInI1MIS14e51h0crajnL12t_ohxeJ0nFFdRSS5QvDwY0F7DpZuZ2nzBN3S9hlcBfal_YZEsJfbv5cFrRMHo-EztQ8BkbnxCkpSukN1X-9SQfjkPf0CUAIwdealqMutp73AFXf5NvJa', 'width': 4000}], 'types': ['tourist_attraction', 'park', 'point_of_interest', 'establishment']}, {'name': 'Statue of Liberty National Monument', 'photos': [{'height': 477, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/113804532589471761695">A Google User</a>'], 'photo_reference': 'ATtYBwITfsKR_EVfTsCP-1j05DHfWzIZaWIH3okIaNQPOJQpoMOJifGcuzSwY8Mdjn_vV56bxcWjUu9a8-uKbih906IuyuSJ3iUI-_drAEdIOe-wAMtoof6gZcNZ3QQr8Mjr_JOLJr50pBzUFlz5LWPOu5_ZRfKwKpFUXd5YIIcZ4D6iyYTu', 'width': 719}], 'types': ['point_of_interest', 'establishment']}], 'status': 'OK'}
+2021-03-29 01:37:19,294 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:37:19] "[32mGET /place/statue%20of%20liberty HTTP/1.1[0m" 302 -
+2021-03-29 01:38:18,441 - get_place_photo - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=whitehouse&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-29 01:38:18,443 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-29 01:38:19,276 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=whitehouse&inputtype=textquery&fields=photos,types,name&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 146
+2021-03-29 01:38:19,279 - get_place_photo - DEBUG - {'candidates': [{'name': 'White House', 'types': ['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']}], 'status': 'OK'}
+2021-03-29 01:38:19,279 - log_exception - ERROR - Exception on /place/whitehouse [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 134, in get_place_photo
+    photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+KeyError: 'photos'
+2021-03-29 01:38:19,281 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:38:19] "[35m[1mGET /place/whitehouse HTTP/1.1[0m" 500 -
+2021-03-29 01:39:18,571 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:39:18] "[33mGET /places/moma HTTP/1.1[0m" 404 -
+2021-03-29 01:40:19,002 - get_map - DEBUG - https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=types&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4
+2021-03-29 01:40:19,004 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-29 01:40:19,406 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=types&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 100
+2021-03-29 01:40:19,409 - get_map - DEBUG - ['locality', 'political']
+2021-03-29 01:40:19,410 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:40:19] "[32mGET /satellite/boston HTTP/1.1[0m" 302 -
+2021-03-29 01:41:33,683 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:41:33] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-29 01:46:14,249 - _log - INFO - 172.18.0.1 - - [29/Mar/2021 01:46:14] "[32mGET / HTTP/1.1[0m" 302 -

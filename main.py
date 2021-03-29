@@ -1,6 +1,8 @@
-import os.path  # for checking if the image file was previously created
-import string   # for checking whether the color string is a hexadecimal number
+import os        # for accessing the API key
+import os.path   # for checking if the image file was previously created
+import string    # for checking whether the color string is a hexadecimal number
 
+import requests
 from flask import Flask, redirect
 from flask import send_file      # sends the png file back to the caller 
 from PIL import Image, ImageColor, ImageDraw, ImageFont  # builds the image and contains the named colors
@@ -9,7 +11,7 @@ import logging
 
 import emoji
 
-logging.basicConfig(filename='./logs/app.log', format='%(asctime)s - %(funcName)s - %(levelname)s - %(message)s', level=logging.INFO)
+logging.basicConfig(filename='./logs/app.log', format='%(asctime)s - %(funcName)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 logging.info('notioncover starting...')
     
 app = Flask(__name__)
@@ -114,6 +116,74 @@ def draw_emoji(emojistring, color1, color2=None):
     # Return the image file directly
     return send_file(filename, mimetype='image/png')
 
+@app.route('/place/<place>')
+def get_place_photo(place):
+    # TODO: Sign request https://developers.google.com/maps/documentation/maps-static/get-api-key#premium-auth
+    api_key = os.getenv("GOOGLE_MAPS_API_KEY")
+
+    if api_key:
+        url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={}&inputtype=textquery&fields=photos,types,name&key={}"
+        logging.debug(url.format(place, api_key))
+        resp = requests.get(url.format(place, api_key))
+        data = resp.json()
+        logging.debug(resp.json())
+        photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
+        url = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={}&key={}"
+        return redirect(url.format(photo_ref, api_key))
+
+def get_map(center, zoom, type):
+    # TODO: Sign request https://developers.google.com/maps/documentation/maps-static/get-api-key#premium-auth
+    api_key = os.getenv("GOOGLE_MAPS_API_KEY")
+
+    if api_key:  
+        if zoom is None:
+            url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={}&inputtype=textquery&fields=types&key={}"
+            logging.debug(url.format(center, api_key))
+            resp = requests.get(url.format(center, api_key))
+            data = resp.json()
+            types = data['candidates'][0]['types']
+            logging.debug(types)
+
+            if 'neighborhood' in types:
+                zoom = 15
+            elif 'postal_code' in types:
+                zoom = 15
+            elif 'airport' in types:
+                zoom = 14
+            elif 'locality' in types:
+                zoom = 10
+            elif 'natural_feature' in types:
+                zoom = 10
+            elif 'country' in types:
+                zoom = 6
+            elif 'administrative_area_level_1' in types:
+                zoom = 8
+            elif 'administrative_area_level_2' in types:
+                zoom = 9
+            elif 'content' in types:
+                zoom = 2
+            else:
+                zoom = 1
+
+        # https://www.geeksforgeeks.org/python-get-google-map-image-specified-location-using-google-static-maps-api/
+        url = "https://maps.googleapis.com/maps/api/staticmap?"
+                
+        redirect_url = url + "center=" + center + "&zoom=" + \
+                            str(zoom) + "&size=640x640&key=" + \
+                            api_key + "&format=png32" + \
+                            "&maptype=" + type
+        return redirect(redirect_url)
+    
+
+@app.route('/satellite/<center>')
+@app.route('/satellite/<center>/<zoom>')
+def get_satellite(center, zoom=None):
+    return get_map(center, zoom, 'satellite')
+
+@app.route('/map/<center>')
+@app.route('/map/<center>/<zoom>')
+def get_terrain(center, zoom=None):
+    return get_map(center, zoom, 'terrain')
 
 @app.route('/solid/<color>')
 def draw_solid_color(color):
