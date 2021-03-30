@@ -116,20 +116,36 @@ def draw_emoji(emojistring, color1, color2=None):
     # Return the image file directly
     return send_file(filename, mimetype='image/png')
 
-@app.route('/place/<place>')
-def get_place_photo(place):
+def get_location_type_zoom(type):
+    location_type_zooms = {
+        'neighborhood': 15,
+        'postal_code': 15,
+        'airport': 14,
+        'locality': 11,
+        'natural_feature': 10,
+        'administrative_area_level_2': 9,
+        'administrative_area_level_1': 8,
+        'country': 6,
+        'continent': 2
+    }
+
+    zoom = location_type_zooms.get(type, 1)
+    return zoom
+
+
+def get_place_zoom(location):
     # TODO: Sign request https://developers.google.com/maps/documentation/maps-static/get-api-key#premium-auth
     api_key = os.getenv("GOOGLE_MAPS_API_KEY")
+    url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={}&inputtype=textquery&fields=types&key={}"
 
-    if api_key:
-        url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={}&inputtype=textquery&fields=photos,types,name&key={}"
-        logging.debug(url.format(place, api_key))
-        resp = requests.get(url.format(place, api_key))
-        data = resp.json()
-        logging.debug(resp.json())
-        photo_ref = data['candidates'][0]['photos'][0]['photo_reference']
-        url = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={}&key={}"
-        return redirect(url.format(photo_ref, api_key))
+    url = url.format(location, api_key)
+    resp = requests.get(url)
+    data = resp.json()
+    
+    types = data['candidates'][0]['types']
+    logging.debug(types)
+
+    return get_location_type_zoom(types[0])
 
 def get_map(center, zoom, type):
     # TODO: Sign request https://developers.google.com/maps/documentation/maps-static/get-api-key#premium-auth
@@ -137,33 +153,7 @@ def get_map(center, zoom, type):
 
     if api_key:  
         if zoom is None:
-            url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={}&inputtype=textquery&fields=types&key={}"
-            logging.debug(url.format(center, api_key))
-            resp = requests.get(url.format(center, api_key))
-            data = resp.json()
-            types = data['candidates'][0]['types']
-            logging.debug(types)
-
-            if 'neighborhood' in types:
-                zoom = 15
-            elif 'postal_code' in types:
-                zoom = 15
-            elif 'airport' in types:
-                zoom = 14
-            elif 'locality' in types:
-                zoom = 10
-            elif 'natural_feature' in types:
-                zoom = 10
-            elif 'country' in types:
-                zoom = 6
-            elif 'administrative_area_level_1' in types:
-                zoom = 8
-            elif 'administrative_area_level_2' in types:
-                zoom = 9
-            elif 'content' in types:
-                zoom = 2
-            else:
-                zoom = 1
+            zoom = get_place_zoom(center)
 
         # https://www.geeksforgeeks.org/python-get-google-map-image-specified-location-using-google-static-maps-api/
         url = "https://maps.googleapis.com/maps/api/staticmap?"

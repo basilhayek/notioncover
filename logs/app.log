@@ -1,0 +1,64 @@
+2021-03-30 10:34:13,988 - <module> - INFO - notioncover starting...
+2021-03-30 10:34:14,012 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-30 10:34:14,216 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:34:14] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-30 10:35:15,736 - log_exception - ERROR - Exception on /map/boston [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 174, in get_terrain
+    return get_map(center, zoom, 'terrain')
+  File "main.py", line 152, in get_map
+    if api_key:
+NameError: name 'api_key' is not defined
+2021-03-30 10:35:15,739 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:35:15] "[35m[1mGET /map/boston HTTP/1.1[0m" 500 -
+2021-03-30 10:36:13,954 - <module> - INFO - notioncover starting...
+2021-03-30 10:36:13,966 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-30 10:36:14,076 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:36:14] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-30 10:36:17,728 - log_exception - ERROR - Exception on /map/boston [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 176, in get_terrain
+    return get_map(center, zoom, 'terrain')
+  File "main.py", line 156, in get_map
+    zoom = get_place_zoom(center)
+  File "main.py", line 141, in get_place_zoom
+    url = url.format(center, api_key)
+NameError: name 'center' is not defined
+2021-03-30 10:36:17,729 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:36:17] "[35m[1mGET /map/boston HTTP/1.1[0m" 500 -
+2021-03-30 10:36:54,994 - <module> - INFO - notioncover starting...
+2021-03-30 10:36:55,007 - _log - INFO -  * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+2021-03-30 10:36:55,198 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:36:55] "[32mGET / HTTP/1.1[0m" 302 -
+2021-03-30 10:36:57,568 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-30 10:36:57,991 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=types&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 100
+2021-03-30 10:36:57,993 - get_place_zoom - DEBUG - ['locality', 'political']
+2021-03-30 10:36:57,994 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:36:57] "[32mGET /map/boston HTTP/1.1[0m" 302 -
+2021-03-30 10:37:07,913 - _new_conn - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2021-03-30 10:37:07,927 - _make_request - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/findplacefromtext/json?input=boston&inputtype=textquery&fields=types&key=AIzaSyDvfW2YYM7brehuiO2y70_8lG3dzWPL-t4 HTTP/1.1" 200 100
+2021-03-30 10:37:07,929 - get_place_zoom - DEBUG - ['locality', 'political']
+2021-03-30 10:37:07,930 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:37:07] "[32mGET /satellite/boston HTTP/1.1[0m" 302 -
+2021-03-30 10:37:19,977 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:37:19] "[32mGET /map/boston/12 HTTP/1.1[0m" 302 -
+2021-03-30 10:37:29,685 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:37:29] "[32mGET /satellite/boston/12 HTTP/1.1[0m" 302 -
+2021-03-30 10:37:41,781 - draw_emoji - INFO - Handling request for emoji thumbs_up white yellow
+2021-03-30 10:37:41,935 - draw_emoji - INFO - emojistring thumbs_up -> 👍
+2021-03-30 10:37:41,994 - _log - INFO - 172.18.0.1 - - [30/Mar/2021 10:37:41] "[37mGET /emoji/thumbs_up/white/yellow HTTP/1.1[0m" 200 -
