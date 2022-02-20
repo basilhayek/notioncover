@@ -11,7 +11,7 @@ import logging
 
 import emoji
 
-logging.basicConfig(filename='./logs/app.log', format='%(asctime)s - %(funcName)s - %(levelname)s - %(message)s', level=logging.DEBUG)
+logging.basicConfig(filename='./logs/app.log', format='%(asctime)s - %(funcName)s - %(levelname)s - %(message)s', level=logging.INFO)
 logging.info('notioncover starting...')
     
 app = Flask(__name__)
@@ -134,6 +134,7 @@ def get_location_type_zoom(type):
 
 
 def get_place_zoom(location):
+    #TODO: Refactor into class module
     # TODO: Sign request https://developers.google.com/maps/documentation/maps-static/get-api-key#premium-auth
     api_key = os.getenv("GOOGLE_MAPS_API_KEY")
     url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={}&inputtype=textquery&fields=types&key={}"
