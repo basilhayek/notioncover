@@ -141,3 +141,4 @@ cython_debug/
 *.png
 covers/
 logs/
+*.log

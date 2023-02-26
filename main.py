@@ -103,7 +103,7 @@ def draw_emoji(emojistring, color1, color2=None):
     
     draw = ImageDraw.Draw(img)
 
-    # 109 is the required font https://github.com/python-pillow/Pillow/issues/3346
+    # 109 is the required font size for emoji https://github.com/python-pillow/Pillow/issues/3346
     unicode_font = ImageFont.truetype("./static/fonts/NotoColorEmoji.ttf", 109, layout_engine=ImageFont.LAYOUT_RAQM)
     
     # Draw the eomji in the center
@@ -115,6 +115,43 @@ def draw_emoji(emojistring, color1, color2=None):
 
     # Return the image file directly
     return send_file(filename, mimetype='image/png')
+
+@app.route('/string/<string>/<color1>')
+@app.route('/string/<string>/<color1>/<color2>')
+def draw_string(string, color1, color2=None):
+    ''' Route that returns a canvas with a string 
+    '''
+
+    logging.info('Handling request for emoji {} {} {}'.format(string, color1, color2))
+
+    # Fall back to gray if color1 is invalid
+    color1 = check_color(color1, 'gray')    
+
+    if color2 is None:
+        # Create a 1500x300 solid canvas
+        img = Image.new('RGB', (1500, 300), color = color1)
+    else:
+        # Fall back to white if color2 is invalid
+        color2 = check_color(color2, 'white')
+
+        # create a 1500x300 gradient canvas
+        img = generate_gradient(color1, color2, 1500, 300)
+
+    draw = ImageDraw.Draw(img)
+    # Convert string to unicode
+    unicode_text = string
+    unicode_font = ImageFont.truetype("./static/fonts/Ubuntu-Regular.ttf", 109, layout_engine=ImageFont.LAYOUT_RAQM)
+    
+    # Draw the eomji in the center
+    draw.text((750, 150), unicode_text, font=unicode_font, anchor="mm", embedded_color=True, fill='black')
+
+    # Do not persist these
+    filename = "./covers/temp.png"
+    img.save(filename)
+
+    # Return the image file directly
+    return send_file(filename, mimetype='image/png')
+
 
 def get_location_type_zoom(type):
     location_type_zooms = {
