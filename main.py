@@ -11,6 +11,11 @@ import logging
 
 import emoji
 
+import chess
+import chess.svg
+import cairosvg
+
+
 logging.basicConfig(filename='./logs/app.log', format='%(asctime)s - %(funcName)s - %(levelname)s - %(message)s', level=logging.INFO)
 logging.info('notioncover starting...')
     
@@ -71,6 +76,40 @@ def draw_gradient(top_color, bottom_color):
         img = generate_gradient(top_color, bottom_color, 1500, 300)
         img.save(filename)
     
+    return send_file(filename, mimetype='image/png')
+
+@app.route('/chess/fen/<fen>')
+def draw_chess_fen(fen):
+    pass
+
+@app.route('/chess/opening/<opening>')
+@app.route('/chess/opening/<opening>/<padding>')
+def draw_chess_opening(opening, padding = None):
+    boards = {}
+    # Notation: https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation
+    boards['start'] = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+    boards['kia'] = 'rnbqkbnr/pppppppp/8/8/4P3/3P1NP1/PPPN1PBP/R1BQ1RK1 b kq - 0 6'
+    if opening in boards.keys():
+        board = chess.Board(boards[opening])
+        svg = chess.svg.board(board)
+
+        return send_svg(svg, padding)
+
+# https://note.nkmk.me/en/python-pillow-add-margin-expand-canvas/
+def add_margin(pil_img, top, right, bottom, left, color):
+    width, height = pil_img.size
+    new_width = int(width + right * width + left * width)
+    new_height = int(height + top * height + bottom * height)
+    result = Image.new(pil_img.mode, (new_width, new_height), color)
+    result.paste(pil_img, (int(left * width), int(top * width)))
+    return result
+
+def send_svg(svg, padding):
+    filename = "./covers/temp.png"
+    cairosvg.svg2png(bytestring=svg, write_to=filename)
+    if padding == "width":
+        img_new = add_margin(Image.open(filename), 0, .25, 0, .25, 'white')
+        img_new.save(filename)
     return send_file(filename, mimetype='image/png')
 
 @app.route('/emoji/<emojistring>/<color1>')
